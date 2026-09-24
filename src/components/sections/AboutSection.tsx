@@ -7,7 +7,7 @@ import { ArrowRight, MapPin, Star, Zap, Film, CheckCircle2 } from 'lucide-react'
 
 const stats = [
   { label: 'PROJECTS COMPLETED', value: '120+', icon: Film },
-  { label: 'VIEWS GENERATED', value: '50M+', icon: Star },
+  { label: 'VIEWS GENERATED', value: '10M+', icon: Star },
   { label: 'YEARS EDITING', value: '6+', icon: Zap },
   { label: 'COUNTRIES SERVED', value: '3+', icon: MapPin },
 ];
