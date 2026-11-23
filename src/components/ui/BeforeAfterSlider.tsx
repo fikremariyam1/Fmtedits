@@ -316,7 +316,7 @@ export default function BeforeAfterSlider({
               <div id={finalContainerId} className="w-full h-full scale-[1.35] pointer-events-none" />
             </div>
           ) : (
-            <img src={finalImage} alt={finalLabel} className="w-full h-full object-cover" />
+            <img src={finalImage} alt={finalLabel} loading="lazy" decoding="async" className="w-full h-full object-cover" />
           )}
 
           <div className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 bg-black/80 backdrop-blur-md border border-white/20 text-white font-mono text-[9px] sm:text-[11px] tracking-wider px-2 sm:px-3 py-1 sm:py-1.5 rounded uppercase flex items-center space-x-1.5 pointer-events-none z-10">
@@ -335,7 +335,7 @@ export default function BeforeAfterSlider({
               <div id={rawContainerId} className="w-full h-full scale-[1.35] pointer-events-none" />
             </div>
           ) : (
-            <img src={rawImage} alt={rawLabel} className="w-full h-full object-cover" />
+            <img src={rawImage} alt={rawLabel} loading="lazy" decoding="async" className="w-full h-full object-cover" />
           )}
 
           <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 bg-black/80 backdrop-blur-md border border-white/20 text-white/70 font-mono text-[9px] sm:text-[11px] tracking-wider px-2 sm:px-3 py-1 sm:py-1.5 rounded uppercase flex items-center space-x-1.5 pointer-events-none z-10">

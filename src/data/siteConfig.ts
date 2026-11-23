@@ -1,12 +1,17 @@
 export const siteConfig = {
   name: 'FMTEDITZ',
   creator: 'Fikremariyam Tadesse',
+  siteUrl: 'https://fmtedits.pro.et',
   tagline: 'I EDIT ATTENTION.',
-  heroDescription: 'Video Editor & Motion Designer crafting cinematic stories, sharp social content, and visuals built to hold attention.',
-  bio: 'A creative editor with a background in software development, combining technical thinking with visual storytelling.',
-  extendedBio: 'Bridging algorithmic precision with emotional narrative pacing. Specializing in high-retention long-form YouTube essays, vertical short-form mastery, documentary storytelling, and bespoke 2D/3D motion design.',
-  status: 'AVAILABLE FOR Q2/Q3 COMMISSIONS',
-  location: 'Global / Remote',
+  heroDescription: 'Professional Video Editor & Motion Graphics Designer in Addis Ababa, Ethiopia. Crafting cinematic stories, high-retention social content, and visuals built to hold attention for Ethiopian and international clients.',
+  bio: 'A creative video editor and motion designer with a background in software development, combining technical precision with cinematic visual storytelling.',
+  extendedBio: 'Bridging algorithmic precision with emotional narrative pacing. Based in Addis Ababa, Ethiopia, FMTEDITZ specializes in high-retention long-form YouTube essays, vertical short-form mastery (TikTok, Reels, Shorts), documentary storytelling, commercial video ads, and bespoke 2D/3D motion design.',
+  status: 'AVAILABLE FOR COMMISSIONS',
+  location: 'Addis Ababa, Ethiopia & Worldwide Remote',
+  locationCity: 'Addis Ababa',
+  locationCountry: 'Ethiopia',
+  serviceArea: 'Addis Ababa, Ethiopia and clients worldwide',
+  businessCategory: 'Video Editing and Motion Graphics Services',
   email: 'Fmtadesse@gmail.com',
   phone: '+251 970 699 570',
   phones: [
@@ -135,4 +140,34 @@ export const siteConfig = {
     duration: '00:45',
     aspect: '9:16 Vertical / Master Cut',
   },
+  faqs: [
+    {
+      question: 'How much does video editing cost in Ethiopia?',
+      answer: 'Video editing pricing in Ethiopia varies based on footage volume, project complexity, motion graphics intensity, and delivery turnaround. Short-form vertical reels (TikTok, Instagram Reels, YouTube Shorts) have different rate structures compared to in-depth YouTube documentaries or commercial brand advertisements. Rather than one-size-fits-all pricing, FMTEDITZ offers transparent, tailored project quotes that reflect your exact deliverables and timeline. Contact directly via WhatsApp (+251 970 699 570), Telegram (@Fmteditz), or our project inquiry form to receive an exact quotation within 24 hours.',
+    },
+    {
+      question: 'Where can I hire a professional video editor in Addis Ababa?',
+      answer: 'You can hire FMTEDITZ directly in Addis Ababa, Ethiopia. Founder and lead editor Fikremariyam Tadesse works with Ethiopian creators, local businesses, non-profits, and international studios. You can connect via direct phone call (+251 970 699 570 / +251 786 458 717), Telegram (@Fmteditz), WhatsApp, or through the contact page on this website to discuss footage handoff and project scope.',
+    },
+    {
+      question: 'Do you edit long-form YouTube videos and documentaries?',
+      answer: 'Yes. FMTEDITZ specializes in long-form YouTube video essays, talking-head retention edits, and cinematic historical documentaries. For example, FMTEDITZ edited the deep-dive historical documentaries on Emperor Tewodros II and Emperor Menelik II for Ethiopian creator Aymen Asfaw (@aymenasfaw), incorporating custom animated maps, archival image restoration, color science, and dynamic pacing.',
+    },
+    {
+      question: 'Do you offer remote video editing services internationally?',
+      answer: 'Yes. FMTEDITZ operates as a remote video editing studio for clients across North America, Europe, the Middle East, and worldwide. Raw assets are uploaded seamlessly through Google Drive, Dropbox, or Frame.io, and project reviews are conducted with frame-accurate timestamped feedback across international timezones.',
+    },
+    {
+      question: 'Do you create motion graphics and visual effects?',
+      answer: 'Yes. We build custom 2D and 3D kinetic typography, animated data graphs, 3D camera tracking, screen replacements, and UI callout HUDs primarily inside Adobe After Effects. All motion graphics are uniquely crafted to align with each client’s brand identity, ensuring no generic pre-made template look.',
+    },
+    {
+      question: 'What editing software and technical tools do you use?',
+      answer: 'Our professional workflow relies on industry-standard suites: Adobe Premiere Pro for sequence assembly and timeline architecture, Adobe After Effects for motion design and VFX, DaVinci Resolve Studio for color grading and film emulation, Adobe Audition for audio leveling and EQ, and Photoshop/Illustrator for asset preparation.',
+    },
+    {
+      question: 'What is your typical project turnaround time?',
+      answer: 'Standard turnaround for vertical short-form packages is typically 48 to 72 hours (with rush 24-hour sprints available for active campaigns). Comprehensive long-form YouTube edits and commercial videos typically require 3 to 7 business days, including structured revision cycles to ensure complete satisfaction.',
+    },
+  ],
 };

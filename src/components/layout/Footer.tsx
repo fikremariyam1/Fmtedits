@@ -55,10 +55,12 @@ export default function Footer() {
           <div className="flex flex-col space-y-2.5">
             <span className="text-white/40 uppercase tracking-widest text-[10px] sm:text-[11px]">// INDEX</span>
             <Link href="/#work" className="text-white/70 hover:text-white transition-colors">Selected Work</Link>
+            <Link href="/video-editor-ethiopia" className="text-white/70 hover:text-studio-cyan transition-colors">Video Editor Ethiopia</Link>
             <Link href="/#showreel" className="text-white/70 hover:text-white transition-colors">Showreel 2026</Link>
             <Link href="/#services" className="text-white/70 hover:text-white transition-colors">Capabilities</Link>
             <Link href="/#philosophy" className="text-white/70 hover:text-white transition-colors">Philosophy</Link>
             <Link href="/#about" className="text-white/70 hover:text-white transition-colors">About</Link>
+            <Link href="/contact" className="text-white/70 hover:text-white transition-colors">Start a Project</Link>
           </div>
           <div className="flex flex-col space-y-2.5">
             <span className="text-white/40 uppercase tracking-widest text-[10px] sm:text-[11px]">// PLATFORMS</span>
@@ -84,7 +86,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-2 text-white/60 text-[11px]">
               <span className="w-1.5 h-1.5 rounded-full bg-studio-cyan" />
-              <span>Worldwide Remote Availability</span>
+              <span>Addis Ababa, Ethiopia &amp; Worldwide Remote</span>
             </div>
             <span className="text-[10px] text-white/30 tracking-wide pt-1 sm:pt-2">4K DCI • PRORES • 24.00 FPS</span>
           </div>

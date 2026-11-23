@@ -82,7 +82,7 @@ export default function AboutSection() {
             {/* Official Cutout Portrait */}
             <img
               src="/images/editor.png"
-              alt={siteConfig.creator}
+              alt={`${siteConfig.creator} — Professional Video Editor & Motion Designer in Addis Ababa, Ethiopia`}
               className="relative z-10 w-full h-[92%] object-contain object-bottom transition-transform duration-700 group-hover:scale-[1.03] filter drop-shadow-[0_20px_40px_rgba(0,0,0,0.9)]"
             />
 

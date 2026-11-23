@@ -45,7 +45,7 @@ export default function Showreel() {
         {poster && (
           <img
             src={poster}
-            alt="Ambience"
+            alt=""
             aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover filter blur-[80px] opacity-20 scale-125 pointer-events-none"
           />
@@ -101,7 +101,8 @@ export default function Showreel() {
             {poster && (
               <img
                 src={poster}
-                alt="Showreel 2026"
+                alt="FMTEDITZ Master Video Editing Showreel — Fikremariyam Tadesse, Ethiopia"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             )}

@@ -139,7 +139,7 @@ function FeaturedProjectCard({
       {poster && (
         <img
           src={poster}
-          alt="Ambience"
+          alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover filter blur-[90px] opacity-25 scale-125 pointer-events-none"
         />
@@ -225,7 +225,9 @@ function FeaturedProjectCard({
             {poster && (
               <img
                 src={poster}
-                alt={project.title}
+                alt={`${project.title} — Video Edit by FMTEDITZ`}
+                loading="eager"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             )}
@@ -298,7 +300,9 @@ function VerticalProjectCard({
         {poster && (
           <img
             src={poster}
-            alt={project.title}
+            alt={`${project.title} — Video Edit by FMTEDITZ`}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
         )}
@@ -402,7 +406,9 @@ function LandscapeProjectCard({
         {poster && (
           <img
             src={poster}
-            alt={project.title}
+            alt={`${project.title} — Video Edit by FMTEDITZ`}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
         )}

@@ -30,6 +30,7 @@ export default function Navigation() {
   const navLinks = [
     { label: 'WORK', href: '/#work' },
     { label: 'SERVICES', href: '/#services' },
+    { label: 'ETHIOPIA', href: '/video-editor-ethiopia' },
     { label: 'PHILOSOPHY', href: '/#philosophy' },
     { label: 'ABOUT', href: '/#about' },
     { label: 'CONTACT', href: '/contact' },

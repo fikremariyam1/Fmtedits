@@ -70,7 +70,7 @@ export default function CaseStudyClientView({ project, nextProject }: Props) {
           {heroPoster && (
             <img
               src={heroPoster}
-              alt="Ambience"
+              alt=""
               aria-hidden="true"
               className="absolute inset-0 w-full h-full object-cover filter blur-[90px] opacity-25 scale-125 pointer-events-none"
             />
@@ -84,7 +84,7 @@ export default function CaseStudyClientView({ project, nextProject }: Props) {
           >
             <img
               src={heroPoster}
-              alt={project.title}
+              alt={`${project.title} hero video edit by FMTEDITZ`}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             {isHeroDirect && (
@@ -249,7 +249,12 @@ export default function CaseStudyClientView({ project, nextProject }: Props) {
           {cs.motionAndDesign.graphicFrames.map((frame) => (
             <div key={frame.title} className="group rounded-xl overflow-hidden bg-surface/40 border border-white/[0.08] flex flex-col shadow-xl">
               <div className="relative w-full aspect-[16/10] overflow-hidden bg-black">
-                <img src={frame.image} alt={frame.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <img
+                  src={frame.image}
+                  alt={`${frame.title} motion design breakdown — ${project.title}`}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
                 {frame.tag && <span className="absolute top-3 left-3 bg-black/70 backdrop-blur-md px-2.5 py-1 rounded font-mono text-[9px] tracking-widest text-white uppercase border border-white/10">{frame.tag}</span>}
               </div>
               <div className="p-4 sm:p-5 flex flex-col space-y-1">
@@ -274,7 +279,7 @@ export default function CaseStudyClientView({ project, nextProject }: Props) {
           {finalPoster && (
             <img
               src={finalPoster}
-              alt="Ambience"
+              alt=""
               aria-hidden="true"
               className="absolute inset-0 w-full h-full object-cover filter blur-[90px] opacity-25 scale-125 pointer-events-none"
             />
@@ -288,7 +293,7 @@ export default function CaseStudyClientView({ project, nextProject }: Props) {
           >
             <img
               src={finalPoster}
-              alt="Final Result"
+              alt={`${project.title} final master video deliverable by FMTEDITZ`}
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
             {isFinalDirect && (

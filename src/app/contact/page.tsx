@@ -1,10 +1,42 @@
+import type { Metadata } from 'next';
 import ContactSection from '@/components/sections/ContactSection';
 import { siteConfig } from '@/data/siteConfig';
-import { ShieldCheck, Zap, RefreshCw, UploadCloud } from 'lucide-react';
+import { getBreadcrumbSchema } from '@/lib/schema';
+import { ShieldCheck, Zap, RefreshCw, UploadCloud, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+import Link from 'next/link';
 
-export const metadata = {
-  title: 'Contact // ' + siteConfig.name + ' — Start a Project',
-  description: 'Commission video editing, motion design, or documentary projects with FMTEDITZ.',
+export const metadata: Metadata = {
+  title: 'Contact & Hire Video Editor in Ethiopia | FMTEDITZ',
+  description:
+    'Start a video editing project with FMTEDITZ. Based in Addis Ababa, Ethiopia, offering YouTube editing, short-form reels, documentary post-production, and motion design for Ethiopian and international clients.',
+  alternates: {
+    canonical: '/contact',
+  },
+  openGraph: {
+    title: 'Contact & Hire Video Editor in Ethiopia | FMTEDITZ',
+    description:
+      'Commission video editing, motion design, or documentary projects with Fikremariyam Tadesse (FMTEDITZ) in Addis Ababa, Ethiopia.',
+    url: `${siteConfig.siteUrl}/contact`,
+    siteName: siteConfig.name,
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: '/images/editor.png',
+        width: 1200,
+        height: 630,
+        alt: 'FMTEDITZ — Contact Video Editor Ethiopia',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact & Hire Video Editor in Ethiopia | FMTEDITZ',
+    description:
+      'Commission video editing, motion design, or documentary projects with Fikremariyam Tadesse (FMTEDITZ).',
+    creator: '@fmtedits',
+    images: ['/images/editor.png'],
+  },
 };
 
 const standards = [
@@ -15,21 +47,39 @@ const standards = [
 ];
 
 export default function ContactPage() {
+  const breadcrumbSchema = getBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Contact', url: '/contact' },
+  ]);
+
   return (
     <div className="min-h-screen bg-void text-white pt-20 sm:pt-24 md:pt-32 pb-16 sm:pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      {/* Breadcrumb */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 mb-6 flex items-center space-x-2 font-mono text-xs text-white/50">
+        <Link href="/" className="hover:text-studio-cyan transition-colors">
+          HOME
+        </Link>
+        <span>/</span>
+        <span className="text-white/80">CONTACT</span>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 mb-8 sm:mb-12 flex flex-col space-y-3 sm:space-y-4">
         <span className="font-mono text-xs text-studio-cyan tracking-widest uppercase flex items-center space-x-2">
           <span className="w-2 h-2 rounded-full bg-studio-cyan animate-pulse" />
-          <span>DIRECT COMMISSION INTAKE</span>
+          <span>DIRECT COMMISSION INTAKE // ADDIS ABABA &amp; GLOBAL</span>
         </span>
         <h1 className="font-display font-black text-3xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter text-white uppercase leading-[0.95]">
           START A PROJECT
         </h1>
         <p className="font-sans text-sm sm:text-lg text-white/70 max-w-2xl leading-relaxed pt-1 sm:pt-2">
-          Initiate a commission below, message on{' '}
+          Based in <strong>Addis Ababa, Ethiopia</strong> and accepting clients worldwide. Initiate a commission below, message on{' '}
           <a href={siteConfig.links.whatsapp} target="_blank" rel="noreferrer" className="text-studio-cyan underline hover:text-white transition-colors">
             WhatsApp
-          </a>, or reach out directly at{' '}
+          </a>, Telegram <a href={siteConfig.links.telegram} target="_blank" rel="noreferrer" className="text-studio-cyan underline hover:text-white transition-colors">{siteConfig.links.telegramHandle}</a>, or reach out directly at{' '}
           <a href={'mailto:' + siteConfig.email} className="text-white underline hover:text-studio-cyan transition-colors">
             {siteConfig.email}
           </a>{' '}

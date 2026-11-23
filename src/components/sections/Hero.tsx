@@ -81,13 +81,13 @@ export default function Hero() {
             <div className="flex items-center space-x-2 bg-white/[0.04] sm:bg-transparent px-2.5 sm:px-0 py-1 sm:py-0 rounded-full border sm:border-0 border-white/10">
               <img
                 src="/images/editor.png"
-                alt="Fikremariyam Tadesse"
+                alt="Fikremariyam Tadesse — Video Editor & Motion Designer in Ethiopia"
                 className="w-6 h-6 sm:w-7 sm:h-7 rounded-full object-cover object-top border border-studio-cyan/40 bg-surface/80 shadow-[0_0_10px_rgba(0,194,203,0.3)]"
               />
               <span className="text-studio-cyan font-bold text-[10px] sm:text-xs">FIKREMARIYAM TADESSE</span>
             </div>
             <span className="hidden sm:inline text-white/30">—</span>
-            <span className="hidden sm:inline">VIDEO EDITOR &amp; MOTION DESIGNER</span>
+            <span className="hidden sm:inline">VIDEO EDITOR &amp; MOTION DESIGNER // ADDIS ABABA, ETHIOPIA</span>
           </div>
 
           <h1 className="font-display font-black text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tighter text-white uppercase leading-[0.92] text-left select-none">

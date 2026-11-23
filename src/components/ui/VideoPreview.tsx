@@ -52,6 +52,8 @@ export default function VideoPreview({
         <img
           src={effectivePoster}
           alt={title}
+          loading="lazy"
+          decoding="async"
           className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-105 ${
             isDirect && isLoaded && (isHovered || priorityPlay) ? 'opacity-0' : 'opacity-100'
           }`}

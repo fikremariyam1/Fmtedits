@@ -28,7 +28,7 @@ export default function BrandLogo({ className = '', showText = true, size = 'md'
       <div className={`relative ${iconSizes[size]} shrink-0 flex items-center justify-center`}>
         <img
           src="/images/logo.png"
-          alt="FMTEDITZ Logo"
+          alt="FMTEDITZ — Video Editing & Motion Graphics Logo"
           className="w-full h-full object-contain filter drop-shadow-[0_0_10px_rgba(0,194,203,0.6)]"
         />
       </div>
