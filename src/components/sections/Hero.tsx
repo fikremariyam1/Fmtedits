@@ -98,7 +98,7 @@ export default function Hero() {
           </h1>
 
           <p className="font-sans text-sm sm:text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed pt-1 sm:pt-2 font-normal">
-            {siteConfig.heroDescription}
+            <strong className="text-white font-semibold">Video editor in Ethiopia</strong> based in Addis Ababa. FMTEDITZ (Fikremariyam Tadesse) specializes in high-retention YouTube editing, short-form TikTok/Reels, documentaries, and motion graphics for Ethiopian and international clients.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 pt-4 sm:pt-6 w-full sm:w-auto">

@@ -16,8 +16,8 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mon
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: 'FMTEDITZ — Professional Video Editor in Ethiopia | Addis Ababa & Remote',
-    template: '%s | FMTEDITZ — Video Editor Ethiopia',
+    default: 'Video Editor in Ethiopia | FMTEDITZ — Addis Ababa',
+    template: '%s | FMTEDITZ',
   },
   description: siteConfig.heroDescription,
   applicationName: siteConfig.name,

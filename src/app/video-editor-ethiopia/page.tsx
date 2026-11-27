@@ -22,9 +22,11 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Video Editor in Ethiopia | Professional Video Editing Addis Ababa',
+  title: {
+    absolute: 'Video Editor in Ethiopia | Video Editing Services Addis Ababa — FMTEDITZ',
+  },
   description:
-    'FMTEDITZ is a premier video editing service based in Addis Ababa, Ethiopia, founded by Fikremariyam Tadesse. Specializing in YouTube video editing, short-form TikTok/Reels, documentary storytelling, commercial ads, and motion graphics for Ethiopian and international clients.',
+    'Looking for a professional video editor in Ethiopia? FMTEDITZ (Fikremariyam Tadesse) provides top-tier YouTube editing, TikTok/Reels, documentaries, and motion graphics based in Addis Ababa.',
   keywords: [
     'Video Editor in Ethiopia',
     'Video Editing Services in Ethiopia',

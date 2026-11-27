@@ -3,7 +3,7 @@ export const siteConfig = {
   creator: 'Fikremariyam Tadesse',
   siteUrl: 'https://fmtedits.pro.et',
   tagline: 'I EDIT ATTENTION.',
-  heroDescription: 'Professional Video Editor & Motion Graphics Designer in Addis Ababa, Ethiopia. Crafting cinematic stories, high-retention social content, and visuals built to hold attention for Ethiopian and international clients.',
+  heroDescription: 'Professional video editor in Ethiopia based in Addis Ababa. FMTEDITZ (Fikremariyam Tadesse) specializes in high-retention YouTube editing, short-form TikTok/Reels, documentaries, and motion graphics for Ethiopian and international clients.',
   bio: 'A creative video editor and motion designer with a background in software development, combining technical precision with cinematic visual storytelling.',
   extendedBio: 'Bridging algorithmic precision with emotional narrative pacing. Based in Addis Ababa, Ethiopia, FMTEDITZ specializes in high-retention long-form YouTube essays, vertical short-form mastery (TikTok, Reels, Shorts), documentary storytelling, commercial video ads, and bespoke 2D/3D motion design.',
   status: 'AVAILABLE FOR COMMISSIONS',
