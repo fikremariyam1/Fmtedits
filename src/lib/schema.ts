@@ -9,12 +9,13 @@ export function getOrganizationAndPersonSchema() {
       {
         '@type': 'WebSite',
         '@id': `${siteConfig.siteUrl}/#website`,
-        url: siteConfig.siteUrl,
+        url: `${siteConfig.siteUrl}/`,
         name: siteConfig.name,
+        alternateName: ['FMTEDITZ Ethiopia', 'FMT Edits', 'FMTEDITZ Portfolio', 'Fikremariyam Tadesse'],
         description: siteConfig.heroDescription,
         inLanguage: 'en-US',
         publisher: {
-          '@id': `${siteConfig.siteUrl}/#person`,
+          '@id': `${siteConfig.siteUrl}/#organization`,
         },
       },
       {

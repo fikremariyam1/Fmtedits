@@ -89,11 +89,15 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/images/logo.png', type: 'image/png' },
-      { url: '/icon.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/icon.png', sizes: '512x512', type: 'image/png' },
     ],
-    shortcut: '/images/logo.png',
-    apple: '/apple-icon.png',
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
 };
 
